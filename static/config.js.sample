@@ -10,6 +10,6 @@ var config = {
 	startDSTTime: "2021-10-01", //开始使用夏时令时时间(UTC时间)
 	stopDSTTime: "2021-12-01", //停止使用夏时令的时间(UTC时间)
 	defaultPassword: "aa123456", //手工开户时的默认密码
-	forceUpdatePassword: false, //TODO 如果使用的是默认密码，强制修改密码
+	forceUpdatePassword: false, //如果使用的是默认密码，强制修改密码
 	onlyShowNoticeTitle:false,//导航栏下面，是否只显示通知标题
 };
