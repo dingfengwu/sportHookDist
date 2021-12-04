@@ -1,0 +1,15 @@
+var config = {
+	title: "KK体育",
+	lang: "zh-CN",
+	merchant: "kyl",
+	scalePrizeGroup: 10, //创建开户链接时，奖金组小于自己的点数
+	defaultTheme: "red",
+	refreshMatchSpan: 60, //刷新比赛详情的间隔
+	handleFee: 0.05, //中奖将扣减的手续费
+	defaultFastAmount: [100, 200, 500],
+	startDSTTime: "2021-10-01", //开始使用夏时令时时间(UTC时间)
+	stopDSTTime: "2021-12-01", //停止使用夏时令的时间(UTC时间)
+	defaultPassword: "aa123456", //手工开户时的默认密码
+	forceUpdatePassword: false, //如果使用的是默认密码，强制修改密码
+	onlyShowNoticeTitle:false,//导航栏下面，是否只显示通知标题
+};
